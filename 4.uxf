@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>60</y>
+      <w>200</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Station
+--
+-nom: String
+-code: long
+-List&lt;LigneMetro&gt; ligneMetros
+--
++getters
++settters
++toString: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>200</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>LigneMetro
+--
+-nom: String
+-List&lt;Station&gt; stations
+--
++getters
++settters
++toString: String
++ajouterStation(): void
++verifieUnique(): boolean
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>440</x>
+      <y>30</y>
+      <w>50</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>1..*
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>60</y>
+      <w>290</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;270.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>230</x>
+      <y>30</y>
+      <w>50</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>1..*
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

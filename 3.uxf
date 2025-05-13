@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>290</y>
+      <w>170</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Pays
+--
+-nom: String
+-List&lt;Ville&gt; villes
+-capitale: String
+--
++getters
++settters
++toString: String
++ajouterCapitale(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>560</y>
+      <w>130</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Ville
+--
+
+--
++getters
++settters
++toString: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>330</y>
+      <w>660</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;640.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>70</x>
+      <y>400</y>
+      <w>800</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;370.0;10.0;370.0;10.0;250.0;520.0;250.0;520.0;10.0;780.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>740</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Capitale
+--
+-estCapitale: static int
+--
++getters
++settters
++toString: String
++fairCapitale(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>350</y>
+      <w>280</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;260.0;10.0;260.0;170.0;10.0;170.0;10.0;400.0;50.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>150</x>
+      <y>690</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>1
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>60</y>
+      <w>510</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>VilleJumelée
+--
+-List&lt;int&gt; pairVillesJumelées
+--
+VilleJumelée(nomPays1: String, code1: int, nomPays2: String, code2: int)
++getters
++settters
++toString: String
++ajouterVille: int
++ajouterPays: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>800</x>
+      <y>300</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>1..*
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>100</y>
+      <w>730</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>710.0;280.0;620.0;280.0;620.0;150.0;10.0;150.0;10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>230</x>
+      <y>90</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>1
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>330</y>
+      <w>130</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>/Localite/
+--
+-nom: String
+-code: int
+-surface: long
+-population: long
+--
++getters
++settters
++toString: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>420</y>
+      <w>90</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+</diagram>
