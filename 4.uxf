@@ -4,16 +4,14 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>60</y>
+      <x>510</x>
+      <y>120</y>
       <w>200</w>
       <h>150</h>
     </coordinates>
     <panel_attributes>Station
 --
 -nom: String
--code: long
--List&lt;LigneMetro&gt; ligneMetros
 --
 +getters
 +settters
@@ -24,15 +22,14 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
+      <x>80</x>
+      <y>80</y>
       <w>200</w>
       <h>150</h>
     </coordinates>
     <panel_attributes>LigneMetro
 --
 -nom: String
--List&lt;Station&gt; stations
 --
 +getters
 +settters
@@ -45,36 +42,65 @@
   <element>
     <id>Text</id>
     <coordinates>
-      <x>440</x>
-      <y>30</y>
+      <x>500</x>
+      <y>90</y>
       <w>50</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>1..*
+    <panel_attributes>2..*
 style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>60</y>
-      <w>290</w>
+      <x>270</x>
+      <y>120</y>
+      <w>260</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;270.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;240.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>230</x>
-      <y>30</y>
+      <x>290</x>
+      <y>90</y>
       <w>50</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>1..*
+    <panel_attributes>0..*
 style=wordwrap</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>360</y>
+      <w>200</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>OrdreStation
+--
+-ordre: int
+--
++getters
++settters
++toString: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>120</y>
+      <w>30</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;240.0</additional_attributes>
   </element>
 </diagram>

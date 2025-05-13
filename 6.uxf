@@ -29,7 +29,6 @@
     </coordinates>
     <panel_attributes>Formation
 --
--List&lt;Stagiaire&gt;
 -formateur: Formateur
 --
 +getters
@@ -103,12 +102,12 @@
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>90</y>
+      <y>110</y>
       <w>130</w>
-      <h>330</h>
+      <h>310</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;310.0;70.0;310.0;70.0;10.0;110.0;10.0</additional_attributes>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;290.0;70.0;290.0;70.0;10.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -118,7 +117,7 @@
       <w>410</w>
       <h>350</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;330.0;50.0;330.0;50.0;220.0;250.0;220.0;250.0;10.0;390.0;10.0</additional_attributes>
   </element>
   <element>
@@ -136,8 +135,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>540</x>
-      <y>400</y>
+      <x>530</x>
+      <y>370</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -161,7 +160,7 @@ style=wordwrap</panel_attributes>
     <id>Text</id>
     <coordinates>
       <x>540</x>
-      <y>100</y>
+      <y>120</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
@@ -174,11 +173,12 @@ style=wordwrap</panel_attributes>
     <coordinates>
       <x>440</x>
       <y>470</y>
-      <w>230</w>
+      <w>260</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>80.0;10.0;210.0;10.0;210.0;110.0;10.0;110.0;10.0;60.0</additional_attributes>
+    <panel_attributes>lt=&lt;-
+gére</panel_attributes>
+    <additional_attributes>80.0;10.0;240.0;10.0;240.0;110.0;10.0;110.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
@@ -203,5 +203,19 @@ style=wordwrap</panel_attributes>
     <panel_attributes>0..1
 style=wordwrap</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>180</y>
+      <w>290</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..*
+est réferent</panel_attributes>
+    <additional_attributes>10.0;250.0;200.0;250.0;200.0;10.0</additional_attributes>
   </element>
 </diagram>

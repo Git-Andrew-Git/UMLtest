@@ -12,7 +12,6 @@
     <panel_attributes>Pizza
 --
 -nom: String
--List&lt;Ingrediant&gt; ingrediants
 --
 +getters
 +settters
@@ -31,12 +30,12 @@
     <panel_attributes>Command
 --
 -id: int
--List&lt;Pizza&gt; pizzasCommand
 --
 +getters
 +settters
 +toString: String
 +ajouterProduit(): void
+quantité(): void
 
 </panel_attributes>
     <additional_attributes/>
@@ -51,7 +50,7 @@
     </coordinates>
     <panel_attributes>_Cart_
 --
--List&lt;Pizza&gt; pizzasMenu
+
 --
 +getters
 +settters
