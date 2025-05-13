@@ -113,7 +113,7 @@ style=wordwrap</panel_attributes>
 --
 -List&lt;int&gt; pairVillesJumelées
 --
-VilleJumelée(nomPays1: String, code1: int, nomPays2: String, code2: int)
++VilleJumelée(nomPays1: String, code1: int, nomPays2: String, code2: int)
 +getters
 +settters
 +toString: String

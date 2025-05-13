@@ -18,7 +18,7 @@
 +getters
 +settters
 +toString: String
-+dessinerForme(): abstrait void</panel_attributes>
+/void: +dessinerForme()/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

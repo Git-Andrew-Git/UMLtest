@@ -4,9 +4,9 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
+      <x>30</x>
       <y>180</y>
-      <w>150</w>
+      <w>190</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>Email
@@ -17,8 +17,8 @@
 +getters
 +settters
 +toString: String
-+ajouterDestinateur()
-+ajouterPiéceJointe()</panel_attributes>
++ajouterDestinateur(): void
++ajouterPiéceJointe(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -81,17 +81,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
+      <x>20</x>
       <y>10</y>
-      <w>150</w>
+      <w>210</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>ObjetContenu
 --
 
 -text: String
--List&lt;PiécesJointes&gt;
--List&lt;Destinateur&gt;
+-List&lt;PiécesJointes&gt; piécesJointes
+-List&lt;Destinateur&gt; destinateurs
 --
 +getters
 +settters
